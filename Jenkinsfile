@@ -19,6 +19,6 @@ pipeline {
     }
   }
   environment {
-    PATH = "/var/jenkins_home/workspace/"
+    PATH = "$PATH:/var/jenkins_home"
   }
 }
