@@ -18,7 +18,4 @@ pipeline {
       }
     }
   }
-  environment {
-    PATH = "$PATH:/var/jenkins_home"
-  }
 }
