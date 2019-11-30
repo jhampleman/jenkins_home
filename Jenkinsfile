@@ -7,7 +7,7 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'npm install'
       }
@@ -19,6 +19,6 @@ pipeline {
     }
   }
   environment {
-    jenkins = ''
+    jenkins = 'true'
   }
 }
