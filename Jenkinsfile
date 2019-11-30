@@ -19,6 +19,6 @@ pipeline {
     }
   }
   environment {
-    jenkins = 'true'
+    PATH = "$PATH:/usr/local/bin"
   }
 }
